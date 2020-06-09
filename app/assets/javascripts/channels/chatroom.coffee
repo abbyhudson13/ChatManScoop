@@ -5,3 +5,4 @@ connected: ->
 disconnected: ->
 
 received: (data) ->
+  $('#message-container').append data.mod_message
