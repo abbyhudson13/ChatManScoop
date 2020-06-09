@@ -1,4 +1,4 @@
-App.chatroom = App.cable.subscription.create "ChatroomChannel",
+App.chatroom = App.cable.subscriptions.create "ChatroomChannel",
 
 connected: ->
 
